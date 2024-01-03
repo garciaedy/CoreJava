@@ -1,13 +1,13 @@
 package inheritance;
 
 public class Shape {
-    private string name;
+    private String name;
 
-    public string getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(string name) {
+    public void setName(String name) {
         this.name = name;
     }
 }
