@@ -1,4 +1,4 @@
-package inheritance;
+package lesson_303_9_java_encapsulation_and_inheritance;
 
 public class Rectangle extends Shape{
 

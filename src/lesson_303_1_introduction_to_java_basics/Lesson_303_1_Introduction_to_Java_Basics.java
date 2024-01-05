@@ -1,0 +1,4 @@
+package lesson_303_1_introduction_to_java_basics;
+
+public class Lesson_303_1_Introduction_to_Java_Basics {
+}
