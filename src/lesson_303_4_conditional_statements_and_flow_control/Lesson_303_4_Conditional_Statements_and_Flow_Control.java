@@ -231,7 +231,31 @@ public class Lesson_303_4_Conditional_Statements_and_Flow_Control {
         }
 
         System.out.println( "     ");
-        System.out.println( "     <-------------------->    ");
+        System.out.println( "    <if-else with Leap Year Calculation>    ");
+
+        int year = 2024;
+        if((year % 4 == 0 && year % 100 !=0) || (year % 400 ==0) ){
+            System.out.println("The" + year + "is a leap year");
+        }else {
+            System.out.println("is not a leap year");
+        }
+///         or
+        int year = 2024;
+
+        if (year % 400 == 0) {
+            // If the year is divisible by 400, it is a leap year
+            System.out.println(year + " is a leap year");
+        } else if (year % 100 == 0) {
+            // If the year is divisible by 100 but not by 400, it is not a leap year
+            System.out.println(year + " is not a leap year");
+        } else if (year % 4 == 0) {
+            // If the year is divisible by 4 but not by 100, it is a leap year
+            System.out.println(year + " is a leap year");
+        } else {
+            // If the year is not divisible by 4, it is not a leap year
+            System.out.println(year + " is not a leap year");
+        }
+
 
         System.out.println( "     ");
         System.out.println( "     <-------------------->    ");
