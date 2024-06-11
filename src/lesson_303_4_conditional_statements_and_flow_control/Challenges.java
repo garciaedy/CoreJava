@@ -3,350 +3,420 @@ package lesson_303_4_conditional_statements_and_flow_control;
 public class Challenges {
     public static void main(String[] args){
         /*-----------------------------------------------------------------
-Challenge: 01-doubleNumber
+Challenge: 01-checkEvenOdd
 Difficulty: Basic
 Prompt:
-Write a function that takes an integer and returns its double.
+Write a function that checks if a number is even or odd.
+Explanation:
+A number is even if it is divisible by 2. Otherwise, it is odd.
 Example output:
-doubleNumber(5) -> 10
+checkEvenOdd(3) -> "Odd"
 -----------------------------------------------------------------*/
-// Your solution for 01-doubleNumber here:
+// Your solution for 01-checkEvenOdd here:
 
 /*-----------------------------------------------------------------
-Challenge: 02-checkEven
-Difficulty: Basic
-Prompt:
-Write a function that checks if a number is even.
-Example output:
-checkEven(4) -> true
------------------------------------------------------------------*/
-// Your solution for 02-checkEven here:
-
-/*-----------------------------------------------------------------
-Challenge: 03-maximumValue
+Challenge: 02-findMax
 Difficulty: Basic
 Prompt:
 Write a function that takes two integers and returns the maximum value.
+Explanation:
+Use conditional statements to compare two integers and return the larger one.
 Example output:
-maximumValue(3, 7) -> 7
+findMax(4, 7) -> 7
 -----------------------------------------------------------------*/
-// Your solution for 03-maximumValue here:
+// Your solution for 02-findMax here:
 
 /*-----------------------------------------------------------------
-Challenge: 04-isAdult
+Challenge: 03-checkEligibility
 Difficulty: Basic
 Prompt:
-Write a function that checks if a person is an adult based on age.
+Write a function that checks if a person is eligible to vote based on age.
+Explanation:
+A person is eligible to vote if they are 18 years old or older.
 Example output:
-isAdult(18) -> true
+checkEligibility(17) -> "Not eligible"
 -----------------------------------------------------------------*/
-// Your solution for 04-isAdult here:
+// Your solution for 03-checkEligibility here:
 
 /*-----------------------------------------------------------------
-Challenge: 05-divisibleByBoth
-Difficulty: Basic
-Prompt:
-Write a function that checks if a number is divisible by both 3 and 5.
-Example output:
-divisibleByBoth(15) -> true
------------------------------------------------------------------*/
-// Your solution for 05-divisibleByBoth here:
-
-/*-----------------------------------------------------------------
-Challenge: 06-discountEligibility
-Difficulty: Basic
-Prompt:
-Write a function that checks if a customer is eligible for a discount based on membership status and purchase amount.
-Example output:
-discountEligibility(true, 120) -> true
------------------------------------------------------------------*/
-// Your solution for 06-discountEligibility here:
-
-/*-----------------------------------------------------------------
-Challenge: 07-positiveNegativeZero
-Difficulty: Basic
-Prompt:
-Write a function that checks if a number is positive, negative, or zero using the ternary operator.
-Example output:
-positiveNegativeZero(5) -> "Positive"
------------------------------------------------------------------*/
-// Your solution for 07-positiveNegativeZero here:
-
-/*-----------------------------------------------------------------
-Challenge: 08-passOrFail
-Difficulty: Basic
-Prompt:
-Write a function that checks if a student passes based on marks.
-Example output:
-passOrFail(60) -> "Pass"
------------------------------------------------------------------*/
-// Your solution for 08-passOrFail here:
-
-/*-----------------------------------------------------------------
-Challenge: 09-votingEligibility
-Difficulty: Basic
-Prompt:
-Write a function that checks if a person is eligible to vote based on age and citizenship.
-Example output:
-votingEligibility(20, true) -> true
------------------------------------------------------------------*/
-// Your solution for 09-votingEligibility here:
-
-/*-----------------------------------------------------------------
-Challenge: 10-speedCheck
-Difficulty: Basic
-Prompt:
-Write a function that checks if a car is over the speed limit.
-Example output:
-speedCheck(80) -> "Over speed limit"
------------------------------------------------------------------*/
-// Your solution for 10-speedCheck here:
-
-/*-----------------------------------------------------------------
-Challenge: 11-ageGroup
-Difficulty: Basic
-Prompt:
-Write a function that classifies a person's age group (child, teenager, adult, senior).
-Example output:
-ageGroup(25) -> "Adult"
------------------------------------------------------------------*/
-// Your solution for 11-ageGroup here:
-
-/*-----------------------------------------------------------------
-Challenge: 12-leapYear
-Difficulty: Basic
-Prompt:
-Write a function that checks if a year is a leap year.
-Example output:
-leapYear(2024) -> true
------------------------------------------------------------------*/
-// Your solution for 12-leapYear here:
-
-/*-----------------------------------------------------------------
-Challenge: 13-gradeClassification
+Challenge: 04-gradeClassification
 Difficulty: Basic
 Prompt:
 Write a function that classifies a student's grade based on marks.
+Explanation:
+Classify grades as A, B, C, D, or F based on the marks provided.
 Example output:
 gradeClassification(85) -> "B"
 -----------------------------------------------------------------*/
-// Your solution for 13-gradeClassification here:
+// Your solution for 04-gradeClassification here:
 
 /*-----------------------------------------------------------------
-Challenge: 14-rangeCheck
+Challenge: 05-checkPositiveNegative
 Difficulty: Basic
 Prompt:
-Write a function that checks if a number is within a specific range.
+Write a function that checks if a number is positive, negative, or zero.
+Explanation:
+Use conditional statements to determine if a number is greater than, less than, or equal to zero.
 Example output:
-rangeCheck(15, 10, 20) -> true
+checkPositiveNegative(-5) -> "Negative"
 -----------------------------------------------------------------*/
-// Your solution for 14-rangeCheck here:
+// Your solution for 05-checkPositiveNegative here:
 
 /*-----------------------------------------------------------------
-Challenge: 15-taxRate
+Challenge: 06-leapYearCheck
 Difficulty: Basic
 Prompt:
-Write a function that calculates the tax rate based on income using the ternary operator.
-Example output:
-taxRate(80000) -> 0.2
------------------------------------------------------------------*/
-// Your solution for 15-taxRate here:
-
-/*-----------------------------------------------------------------
-Challenge: 16-bmiCategory
-Difficulty: Basic
-Prompt:
-Write a function that calculates the BMI and classifies it as underweight, normal weight, overweight, or obese.
-Example output:
-bmiCategory(70, 1.75) -> "Normal weight"
------------------------------------------------------------------*/
-// Your solution for 16-bmiCategory here:
-
-/*-----------------------------------------------------------------
-Challenge: 17-divisibilityCheck
-Difficulty: Basic
-Prompt:
-Write a function that checks if a number is divisible by 2 and 3.
-Example output:
-divisibilityCheck(12) -> true
------------------------------------------------------------------*/
-// Your solution for 17-divisibilityCheck here:
-
-/*-----------------------------------------------------------------
-Challenge: 18-passwordStrength
-Difficulty: Basic
-Prompt:
-Write a function that checks the strength of a password based on certain criteria (length, contains digits, etc.).
-Example output:
-passwordStrength("Pa$$w0rd") -> "Strong"
------------------------------------------------------------------*/
-// Your solution for 18-passwordStrength here:
-
-/*-----------------------------------------------------------------
-Challenge: 19-specialOfferEligibility
-Difficulty: Basic
-Prompt:
-Write a function that checks if a person is eligible for a special offer based on age and income.
-Example output:
-specialOfferEligibility(30, 60000) -> true
------------------------------------------------------------------*/
-// Your solution for 19-specialOfferEligibility here:
-
-/*-----------------------------------------------------------------
-Challenge: 20-loanEligibility
-Difficulty: Basic
-Prompt:
-Write a function that checks if a person is eligible for a loan based on credit score and annual income.
-Example output:
-loanEligibility(700, 55000) -> true
------------------------------------------------------------------*/
-// Your solution for 20-loanEligibility here:
-
-/*-----------------------------------------------------------------
-Challenge: 21-absoluteValue
-Difficulty: Basic
-Prompt:
-Write a function that returns the absolute value of a number using the ternary operator.
-Example output:
-absoluteValue(-10) -> 10
------------------------------------------------------------------*/
-// Your solution for 21-absoluteValue here:
-
-/*-----------------------------------------------------------------
-Challenge: 22-oddOrEven
-Difficulty: Basic
-Prompt:
-Write a function that checks if a number is odd or even using the ternary operator.
-Example output:
-oddOrEven(4) -> "Even"
------------------------------------------------------------------*/
-// Your solution for 22-oddOrEven here:
-
-/*-----------------------------------------------------------------
-Challenge: 23-votingEligibility
-Difficulty: Basic
-Prompt:
-Write a function that checks if a person is eligible to vote based on age and citizenship.
-Example output:
-votingEligibility(18, true) -> true
------------------------------------------------------------------*/
-// Your solution for 23-votingEligibility here:
-
-/*-----------------------------------------------------------------
-Challenge: 24-maxOfThree
-Difficulty: Basic
-Prompt:
-Write a function that returns the maximum of three integers using logical operators and ternary operator.
-Example output:
-maxOfThree(3, 7, 5) -> 7
------------------------------------------------------------------*/
-// Your solution for 24-maxOfThree here:
-
-/*-----------------------------------------------------------------
-Challenge: 25-positiveOrNegative
-Difficulty: Basic
-Prompt:
-Write a function that checks if a number is positive or negative using the ternary operator.
-Example output:
-positiveOrNegative(-3) -> "Negative"
------------------------------------------------------------------*/
-// Your solution for 25-positiveOrNegative here:
-
-/*-----------------------------------------------------------------
-Challenge: 26-eligibleForDiscount
-Difficulty: Basic
-Prompt:
-Write a function that checks if a customer is eligible for a discount based on membership status and purchase amount.
-Example output:
-eligibleForDiscount(true, 150) -> true
------------------------------------------------------------------*/
-// Your solution for 26-eligibleForDiscount here:
-
-/*-----------------------------------------------------------------
-Challenge: 27-leapYearCheck
-Difficulty: Basic
-Prompt:
-Write a function that checks if a year is a leap year using the ternary operator.
+Write a function that checks if a year is a leap year.
+Explanation:
+A leap year is divisible by 4, but not by 100, unless it is also divisible by 400.
 Example output:
 leapYearCheck(2020) -> true
 -----------------------------------------------------------------*/
-// Your solution for 27-leapYearCheck here:
+// Your solution for 06-leapYearCheck here:
 
 /*-----------------------------------------------------------------
-Challenge: 28-speedCheck
+Challenge: 07-calculateTax
 Difficulty: Basic
 Prompt:
-Write a function that checks if a car is over the speed limit.
+Write a function that calculates the tax rate based on income.
+Explanation:
+Use conditional statements to determine the tax rate based on different income ranges.
 Example output:
-speedCheck(85, 70) -> "Over speed limit"
+calculateTax(75000) -> 0.2
 -----------------------------------------------------------------*/
-// Your solution for 28-speedCheck here:
+// Your solution for 07-calculateTax here:
 
 /*-----------------------------------------------------------------
-Challenge: 29-gradeClassification
+Challenge: 08-compareThreeNumbers
 Difficulty: Basic
 Prompt:
-Write a function that classifies a student's grade based on marks using the ternary operator.
+Write a function that takes three integers and returns the maximum value.
+Explanation:
+Compare three integers using conditional statements to find the largest value.
 Example output:
-gradeClassification(88) -> "B"
+compareThreeNumbers(3, 7, 5) -> 7
 -----------------------------------------------------------------*/
-// Your solution for 29-gradeClassification here:
+// Your solution for 08-compareThreeNumbers here:
 
 /*-----------------------------------------------------------------
-Challenge: 30-bmiClassification
+Challenge: 09-checkPassingGrade
 Difficulty: Basic
 Prompt:
-Write a function that calculates BMI and classifies it using the ternary operator.
+Write a function that checks if a student passes based on marks.
+Explanation:
+A student passes if their marks are 50 or above.
+Example output:
+checkPassingGrade(55) -> "Pass"
+-----------------------------------------------------------------*/
+// Your solution for 09-checkPassingGrade here:
+
+/*-----------------------------------------------------------------
+Challenge: 10-bmiClassification
+Difficulty: Basic
+Prompt:
+Write a function that calculates BMI and classifies it.
+Explanation:
+Calculate BMI using weight and height, then classify it as underweight, normal weight, overweight, or obese.
 Example output:
 bmiClassification(68, 1.75) -> "Normal weight"
 -----------------------------------------------------------------*/
-// Your solution for 30-bmiClassification here:
+// Your solution for 10-bmiClassification here:
 
 /*-----------------------------------------------------------------
-Challenge: 31-speedingFine
+Challenge: 11-speedCheck
 Difficulty: Basic
 Prompt:
-Write a function that calculates the speeding fine based on the speed and speed limit using logical operators.
+Write a function that checks if a car is over the speed limit.
+Explanation:
+Compare the car's speed to the speed limit and determine if it is over the limit.
 Example output:
-speedingFine(90, 70) -> "Fine is $100"
+speedCheck(85, 70) -> "Over speed limit"
 -----------------------------------------------------------------*/
-// Your solution for 31-speedingFine here:
+// Your solution for 11-speedCheck here:
 
 /*-----------------------------------------------------------------
-Challenge: 32-ageGroupClassification
+Challenge: 12-ageGroup
 Difficulty: Basic
 Prompt:
-Write a function that classifies a person's age group using logical operators and ternary operator.
+Write a function that classifies a person's age group (child, teenager, adult, senior).
+Explanation:
+Classify age into different groups: child (0-12), teenager (13-19), adult (20-64), senior (65+).
+Example output:
+ageGroup(25) -> "Adult"
+-----------------------------------------------------------------*/
+// Your solution for 12-ageGroup here:
+
+/*-----------------------------------------------------------------
+Challenge: 13-discountEligibility
+Difficulty: Basic
+Prompt:
+Write a function that checks if a customer is eligible for a discount based on membership status and purchase amount.
+Explanation:
+A customer is eligible for a discount if they are a member or if their purchase amount exceeds a certain threshold.
+Example output:
+discountEligibility(true, 80) -> "Eligible for discount"
+-----------------------------------------------------------------*/
+// Your solution for 13-discountEligibility here:
+
+/*-----------------------------------------------------------------
+Challenge: 14-evenOddUsingTernary
+Difficulty: Basic
+Prompt:
+Write a function that checks if a number is even or odd using the ternary operator.
+Explanation:
+Use the ternary operator to determine if a number is divisible by 2.
+Example output:
+evenOddUsingTernary(4) -> "Even"
+-----------------------------------------------------------------*/
+// Your solution for 14-evenOddUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 15-maxUsingTernary
+Difficulty: Basic
+Prompt:
+Write a function that takes two integers and returns the maximum value using the ternary operator.
+Explanation:
+Use the ternary operator to compare two integers and return the larger one.
+Example output:
+maxUsingTernary(4, 7) -> 7
+-----------------------------------------------------------------*/
+// Your solution for 15-maxUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 16-absoluteValueUsingTernary
+Difficulty: Basic
+Prompt:
+Write a function that returns the absolute value of a number using the ternary operator.
+Explanation:
+Use the ternary operator to return the positive equivalent of a number.
+Example output:
+absoluteValueUsingTernary(-10) -> 10
+-----------------------------------------------------------------*/
+// Your solution for 16-absoluteValueUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 17-eligibleForVote
+Difficulty: Basic
+Prompt:
+Write a function that checks if a person is eligible to vote based on age using the ternary operator.
+Explanation:
+Use the ternary operator to determine if a person's age is 18 or above.
+Example output:
+eligibleForVote(17) -> "Not eligible"
+-----------------------------------------------------------------*/
+// Your solution for 17-eligibleForVote here:
+
+/*-----------------------------------------------------------------
+Challenge: 18-gradeClassificationUsingTernary
+Difficulty: Basic
+Prompt:
+Write a function that classifies a student's grade based on marks using the ternary operator.
+Explanation:
+Use the ternary operator to classify grades as A, B, C, D, or F based on the marks.
+Example output:
+gradeClassificationUsingTernary(85) -> "B"
+-----------------------------------------------------------------*/
+// Your solution for 18-gradeClassificationUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 19-rangeCheckUsingTernary
+Difficulty: Basic
+Prompt:
+Write a function that checks if a number is within a specific range using the ternary operator.
+Explanation:
+Use the ternary operator to determine if a number is between a given minimum and maximum.
+Example output:
+rangeCheckUsingTernary(15, 10, 20) -> "Within range"
+-----------------------------------------------------------------*/
+// Your solution for 19-rangeCheckUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 20-bmiClassificationUsingTernary
+Difficulty: Basic
+Prompt:
+Write a function that calculates BMI and classifies it using the ternary operator.
+Explanation:
+Use the ternary operator to classify BMI as underweight, normal weight, overweight, or obese.
+Example output:
+bmiClassificationUsingTernary(68, 1.75) -> "Normal weight"
+-----------------------------------------------------------------*/
+// Your solution for 20-bmiClassificationUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 21-checkPositiveNegativeUsingTernary
+Difficulty: Basic
+Prompt:
+Write a function that checks if a number is positive, negative, or zero using the ternary operator.
+Explanation:
+Use the ternary operator to determine if a number is positive, negative, or zero.
+Example output:
+checkPositiveNegativeUsingTernary(-3) -> "Negative"
+-----------------------------------------------------------------*/
+// Your solution for 21-checkPositiveNegativeUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 22-loanEligibility
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a person is eligible for a loan based on credit score and income.
+Explanation:
+A person is eligible for a loan if their credit score is 700 or above and their annual income is above $50,000.
+Example output:
+loanEligibility(710, 65000) -> "Eligible for loan"
+-----------------------------------------------------------------*/
+// Your solution for 22-loanEligibility here:
+
+/*-----------------------------------------------------------------
+Challenge: 23-checkAttendance
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a student has met the attendance requirement for an exam.
+Explanation:
+A student is eligible for an exam if their attendance is 75% or higher.
+Example output:
+checkAttendance(75) -> "Eligible for exam"
+-----------------------------------------------------------------*/
+// Your solution for 23-checkAttendance here:
+
+/*-----------------------------------------------------------------
+Challenge: 24-findMaxOfThree
+Difficulty: Intermediate
+Prompt:
+Write a function that takes three integers and returns the maximum value.
+Explanation:
+Use conditional statements to compare three integers and find the largest value.
+Example output:
+findMaxOfThree(3, 7, 5) -> 7
+-----------------------------------------------------------------*/
+// Your solution for 24-findMaxOfThree here:
+
+/*-----------------------------------------------------------------
+Challenge: 25-calculateTaxUsingTernary
+Difficulty: Intermediate
+Prompt:
+Write a function that calculates the tax rate based on income using the ternary operator.
+Explanation:
+Use the ternary operator to determine the tax rate for different income ranges.
+Example output:
+calculateTaxUsingTernary(45000) -> "Tax is $4500"
+-----------------------------------------------------------------*/
+// Your solution for 25-calculateTaxUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 26-checkDrivingEligibility
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a person is eligible to drive based on age and license status.
+Explanation:
+A person is eligible to drive if they are 18 years old or older and have a valid license.
+Example output:
+checkDrivingEligibility(18, true) -> "Eligible to drive"
+-----------------------------------------------------------------*/
+// Your solution for 26-checkDrivingEligibility here:
+
+/*-----------------------------------------------------------------
+Challenge: 27-leapYearUsingTernary
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a year is a leap year using the ternary operator.
+Explanation:
+Use the ternary operator to determine if a year is a leap year.
+Example output:
+leapYearUsingTernary(2020) -> true
+-----------------------------------------------------------------*/
+// Your solution for 27-leapYearUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 28-checkSpeedLimit
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a car is over the speed limit.
+Explanation:
+Compare the car's speed to the speed limit and determine if it is over the limit.
+Example output:
+checkSpeedLimit(90, 70) -> "Over speed limit"
+-----------------------------------------------------------------*/
+// Your solution for 28-checkSpeedLimit here:
+
+/*-----------------------------------------------------------------
+Challenge: 29-passOrFailUsingTernary
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a student passes or fails based on marks using the ternary operator.
+Explanation:
+Use the ternary operator to determine if a student's marks are passing or failing.
+Example output:
+passOrFailUsingTernary(58) -> "Fail"
+-----------------------------------------------------------------*/
+// Your solution for 29-passOrFailUsingTernary here:
+
+/*-----------------------------------------------------------------
+Challenge: 30-ageGroupClassification
+Difficulty: Intermediate
+Prompt:
+Write a function that classifies a person's age group using the ternary operator.
+Explanation:
+Use the ternary operator to classify age into different groups: child, teenager, adult, senior.
 Example output:
 ageGroupClassification(35) -> "Adult"
 -----------------------------------------------------------------*/
-// Your solution for 32-ageGroupClassification here:
+// Your solution for 30-ageGroupClassification here:
 
 /*-----------------------------------------------------------------
-Challenge: 33-taxCalculation
-Difficulty: Basic
+Challenge: 31-calculateDiscount
+Difficulty: Intermediate
 Prompt:
-Write a function that calculates tax based on income using the ternary operator.
+Write a function that calculates a discount based on membership status and purchase amount.
+Explanation:
+A customer receives a discount if they are a member or if their purchase amount exceeds a certain threshold.
 Example output:
-taxCalculation(45000) -> "Tax is $4500"
+calculateDiscount(true, 150) -> "Discount is $15"
 -----------------------------------------------------------------*/
-// Your solution for 33-taxCalculation here:
+// Your solution for 31-calculateDiscount here:
 
 /*-----------------------------------------------------------------
-Challenge: 34-admissionEligibility
-Difficulty: Basic
+Challenge: 32-votingEligibility
+Difficulty: Intermediate
 Prompt:
-Write a function that checks if a person is eligible for admission based on score and recommendation using logical operators.
+Write a function that checks if a person is eligible to vote based on age and citizenship using logical operators.
+Explanation:
+A person is eligible to vote if they are 18 years old or older and are a citizen.
 Example output:
-admissionEligibility(85, true) -> true
+votingEligibility(20, true) -> true
 -----------------------------------------------------------------*/
-// Your solution for 34-admissionEligibility here:
+// Your solution for 32-votingEligibility here:
+
+/*-----------------------------------------------------------------
+Challenge: 33-healthStatus
+Difficulty: Intermediate
+Prompt:
+Write a function that determines a person's health status based on BMI.
+Explanation:
+Calculate BMI and classify it as underweight, normal weight, overweight, or obese.
+Example output:
+healthStatus(68, 1.75) -> "Normal weight"
+-----------------------------------------------------------------*/
+// Your solution for 33-healthStatus here:
+
+/*-----------------------------------------------------------------
+Challenge: 34-drivingLicenseEligibility
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a person is eligible to apply for a driving license based on age.
+Explanation:
+A person is eligible to apply for a driving license if they are 16 years old or older.
+Example output:
+drivingLicenseEligibility(15) -> "Not eligible"
+-----------------------------------------------------------------*/
+// Your solution for 34-drivingLicenseEligibility here:
 
 /*-----------------------------------------------------------------
 Challenge: 35-scholarshipEligibility
-Difficulty: Basic
+Difficulty: Intermediate
 Prompt:
 Write a function that checks if a student is eligible for a scholarship based on GPA and extracurricular activities using the ternary operator.
+Explanation:
+A student is eligible for a scholarship if their GPA is 3.5 or higher or they participate in extracurricular activities.
 Example output:
 scholarshipEligibility(3.6, true) -> true
 -----------------------------------------------------------------*/
@@ -354,9 +424,11 @@ scholarshipEligibility(3.6, true) -> true
 
 /*-----------------------------------------------------------------
 Challenge: 36-temperatureStatus
-Difficulty: Basic
+Difficulty: Intermediate
 Prompt:
 Write a function that checks the temperature status using logical operators and the ternary operator.
+Explanation:
+Check if the temperature is within a normal range (36.5 - 37.5 degrees Celsius) using logical operators and ternary operator.
 Example output:
 temperatureStatus(37.5) -> "Normal temperature"
 -----------------------------------------------------------------*/
@@ -364,19 +436,23 @@ temperatureStatus(37.5) -> "Normal temperature"
 
 /*-----------------------------------------------------------------
 Challenge: 37-loanApproval
-Difficulty: Basic
+Difficulty: Intermediate
 Prompt:
 Write a function that checks if a loan is approved based on credit score and income using logical operators and ternary operator.
+Explanation:
+A loan is approved if the credit score is 700 or above and the income is above $50,000.
 Example output:
-loanApproval(710, 65000) -> true
+loanApproval(710, 65000) -> "Approved"
 -----------------------------------------------------------------*/
 // Your solution for 37-loanApproval here:
 
 /*-----------------------------------------------------------------
 Challenge: 38-gradeCheck
-Difficulty: Basic
+Difficulty: Intermediate
 Prompt:
 Write a function that checks a student's grade and returns a message using logical operators and the ternary operator.
+Explanation:
+Classify the grade as A, B, C, D, or F based on the marks using logical operators and the ternary operator.
 Example output:
 gradeCheck(72) -> "C"
 -----------------------------------------------------------------*/
@@ -384,9 +460,11 @@ gradeCheck(72) -> "C"
 
 /*-----------------------------------------------------------------
 Challenge: 39-passOrFail
-Difficulty: Basic
+Difficulty: Intermediate
 Prompt:
 Write a function that checks if a student passes or fails based on marks using the ternary operator.
+Explanation:
+A student passes if their marks are 50 or above.
 Example output:
 passOrFail(58) -> "Fail"
 -----------------------------------------------------------------*/
@@ -394,13 +472,196 @@ passOrFail(58) -> "Fail"
 
 /*-----------------------------------------------------------------
 Challenge: 40-ageCheck
-Difficulty: Basic
+Difficulty: Intermediate
 Prompt:
 Write a function that checks if a person is a minor or an adult using logical operators and the ternary operator.
+Explanation:
+A person is a minor if they are under 18, otherwise they are an adult.
 Example output:
 ageCheck(17) -> "Minor"
 -----------------------------------------------------------------*/
 // Your solution for 40-ageCheck here:
 
+/*-----------------------------------------------------------------
+Challenge: 41-isPrime
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a number is prime.
+Explanation:
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+Example output:
+isPrime(7) -> true
+-----------------------------------------------------------------*/
+// Your solution for 41-isPrime here:
+
+/*-----------------------------------------------------------------
+Challenge: 42-checkPalindrome
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a string is a palindrome.
+Explanation:
+A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward.
+Example output:
+checkPalindrome("madonna") -> false
+-----------------------------------------------------------------*/
+// Your solution for 42-checkPalindrome here:
+
+/*-----------------------------------------------------------------
+Challenge: 43-checkArmstrong
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a number is an Armstrong number.
+Explanation:
+An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
+Example output:
+checkArmstrong(153) -> true
+-----------------------------------------------------------------*/
+// Your solution for 43-checkArmstrong here:
+
+/*-----------------------------------------------------------------
+Challenge: 44-perfectNumber
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a number is a perfect number.
+Explanation:
+A perfect number is a positive integer that is equal to the sum of its proper divisors, excluding the number itself.
+Example output:
+perfectNumber(28) -> true
+-----------------------------------------------------------------*/
+// Your solution for 44-perfectNumber here:
+
+/*-----------------------------------------------------------------
+Challenge: 45-checkLeapYear
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a year is a leap year using conditional statements.
+Explanation:
+A leap year is divisible by 4, but not by 100, unless it is also divisible by 400.
+Example output:
+checkLeapYear(2024) -> true
+-----------------------------------------------------------------*/
+// Your solution for 45-checkLeapYear here:
+
+/*-----------------------------------------------------------------
+Challenge: 46-numberRange
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a number is within a specific range.
+Explanation:
+Use conditional statements to check if a number is between a minimum and maximum value.
+Example output:
+numberRange(5, 1, 10) -> "Within range"
+-----------------------------------------------------------------*/
+// Your solution for 46-numberRange here:
+
+/*-----------------------------------------------------------------
+Challenge: 47-numberCategory
+Difficulty: Intermediate
+Prompt:
+Write a function that categorizes a number as small, medium, or large.
+Explanation:
+Use conditional statements to classify a number: small (1-10), medium (11-100), large (101+).
+Example output:
+numberCategory(50) -> "Medium"
+-----------------------------------------------------------------*/
+// Your solution for 47-numberCategory here:
+
+/*-----------------------------------------------------------------
+Challenge: 48-ageEligibility
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a person is eligible for a senior citizen discount based on age.
+Explanation:
+A person is eligible if they are 65 years old or older.
+Example output:
+ageEligibility(70) -> true
+-----------------------------------------------------------------*/
+// Your solution for 48-ageEligibility here:
+
+/*-----------------------------------------------------------------
+Challenge: 49-temperatureCheck
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if the temperature is within a normal range.
+Explanation:
+Normal body temperature range is 36.5 - 37.5 degrees Celsius.
+Example output:
+temperatureCheck(37.0) -> "Normal temperature"
+-----------------------------------------------------------------*/
+// Your solution for 49-temperatureCheck here:
+
+/*-----------------------------------------------------------------
+Challenge: 50-stringLengthCheck
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if the length of a string is within a specific range.
+Explanation:
+Use conditional statements to check if the length of a string is between a minimum and maximum value.
+Example output:
+stringLengthCheck("hello", 3, 10) -> "Valid length"
+-----------------------------------------------------------------*/
+// Your solution for 50-stringLengthCheck here:
+
+/*-----------------------------------------------------------------
+Challenge: 51-votingAgeCheck
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a person is eligible to vote based on age.
+Explanation:
+A person is eligible to vote if they are 18 years old or older.
+Example output:
+votingAgeCheck(17) -> "Not eligible to vote"
+-----------------------------------------------------------------*/
+// Your solution for 51-votingAgeCheck here:
+
+/*-----------------------------------------------------------------
+Challenge: 52-incomeCategory
+Difficulty: Intermediate
+Prompt:
+Write a function that categorizes income as low, medium, or high.
+Explanation:
+Use conditional statements to classify income: low (below $30,000), medium ($30,000 - $70,000), high (above $70,000).
+Example output:
+incomeCategory(50000) -> "Medium"
+-----------------------------------------------------------------*/
+// Your solution for 52-incomeCategory here:
+
+/*-----------------------------------------------------------------
+Challenge: 53-dayTypeCheck
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a day is a weekday or weekend.
+Explanation:
+Use conditional statements to classify a day: weekday (Monday - Friday), weekend (Saturday, Sunday).
+Example output:
+dayTypeCheck("Saturday") -> "Weekend"
+-----------------------------------------------------------------*/
+// Your solution for 53-dayTypeCheck here:
+
+/*-----------------------------------------------------------------
+Challenge: 54-checkDivisibility
+Difficulty: Intermediate
+Prompt:
+Write a function that checks if a number is divisible by another number.
+Explanation:
+Use conditional statements to check if one number is divisible by another.
+Example output:
+checkDivisibility(10, 2) -> true
+-----------------------------------------------------------------*/
+// Your solution for 54-checkDivisibility here:
+
+/*-----------------------------------------------------------------
+Challenge: 55-compareTwoNumbers
+Difficulty: Intermediate
+Prompt:
+Write a function that compares two integers and returns if they are equal, or which one is greater.
+Explanation:
+Use conditional statements to compare two integers and determine their relationship.
+Example output:
+compareTwoNumbers(5, 10) -> "Second is greater"
+-----------------------------------------------------------------*/
+// Your solution for 55-compareTwoNumbers here:
+
     }
+
 }
