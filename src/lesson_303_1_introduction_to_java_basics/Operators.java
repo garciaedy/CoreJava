@@ -6,7 +6,7 @@ public class Operators {
         int a = 11;
         int b = 2;
     int remainder = a % b;
-        System.out.println(STR." The remainder of 30 % 21 is: \{remainder}");
+//        System.out.println(STR." The remainder of 30 % 21 is: \{remainder}");
 
 
         boolean lightOn = true;
