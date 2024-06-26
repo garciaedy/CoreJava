@@ -24,6 +24,8 @@ checkEven(4) -> true
 -----------------------------------------------------------------*/
 // Your solution for 02-checkEven here:
 
+
+
 /*-----------------------------------------------------------------
 Challenge: 03-maximumValue
 Difficulty: Basic
