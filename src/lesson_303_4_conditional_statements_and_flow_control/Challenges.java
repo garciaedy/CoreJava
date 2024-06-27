@@ -14,6 +14,14 @@ checkEvenOdd(3) -> "Odd"
 -----------------------------------------------------------------*/
 // Your solution for 01-checkEvenOdd here:
 
+ int num = 30;
+
+ if(num % 2 == 0){
+     System.out.println("The number is even");
+ }else {
+     System.out.println("the number is odd");
+ }
+
 /*-----------------------------------------------------------------
 Challenge: 02-findMax
 Difficulty: Basic
