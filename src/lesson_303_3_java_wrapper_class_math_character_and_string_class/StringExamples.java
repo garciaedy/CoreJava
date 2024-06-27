@@ -190,14 +190,7 @@ public class StringExamples {
                 .forEach(System.out::print); // Prints each character
         System.out.println();
 
-        // Example 42: Concatenate using StringBuilder in a loop
-        String[] items = {"item1", "item2", "item3"};
-        StringBuilder builder = new StringBuilder();
-        for (String item : items) {
-            builder.append(item).append(", "); // Appends each item and a comma
-        }
-        String concatenated = builder.toString();
-        System.out.println(concatenated); // Outputs: item1, item2, item3,
+
 
         // Example 43: Extract digits from a string
         String alphaNumeric = "ab12cd34";
