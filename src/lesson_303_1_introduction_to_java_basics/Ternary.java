@@ -130,5 +130,15 @@ String result4 = (temperature > 85 && temperature <= 100) ? "way too hot" :
         String result6 = (number2 >= 0)? "Positive" : "Negative";
         System.out.println(number2 + " is a  " + result6 + " number");
 
+        int number3 = 23;
+        String result7 = (number3 >= 10 && number3<=30)? "within range" : "not in range";
+        System.out.println(number3 + " is " + result7);
+
+        int personAge = 65;
+        String result8 = (personAge >= 60)? "senior discount" : "Not elgible, too young";
+        System.out.println("Person age: " + personAge + " - " + result8);
+
+
+        
     }
 }
