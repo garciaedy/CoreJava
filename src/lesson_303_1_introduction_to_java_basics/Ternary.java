@@ -138,7 +138,37 @@ String result4 = (temperature > 85 && temperature <= 100) ? "way too hot" :
         String result8 = (personAge >= 60)? "senior discount" : "Not elgible, too young";
         System.out.println("Person age: " + personAge + " - " + result8);
 
+        int number4 = 9;
+        String result9 = (number4 %3 ==00)? "Multiple of three" : "Not a multiple of three";
+        System.out.println(" Number " + number4 + " is " + result9); // Print the result
 
-        
+        char letter = 'a';
+        String result10 = (letter == 'a' || letter == 'e' || letter == 'i' ||
+                letter == 'o' || letter == 'u') ? "Vowel" : "Consonant"; // Check if letter is a vowel
+        System.out.println("Letter '" + letter + "' is a " + result10); // Print the result
+
+        char letters = 'b'; // Initialize the letter variable with a character
+        String vowels = "aeiou"; // A string containing all lowercase vowels
+        String results10 = (vowels.indexOf(letter) != -1) ? "Vowel" : "Consonant"; // Check if the letter exists in the vowels string
+        System.out.println("Letter '" + letters + "' is a " + results10); //
+
+        // Example 12: Check if a number is prime
+        int number6 = 7; // Initialize number6 with 7
+        boolean isPrime = true; // Assume number6 is prime
+        for (int i = 2; i <= number6 / 2; ++i) { // Loop from 2 to half of number6
+            if (number6 % i == 0) { // If number6 is divisible by i
+                isPrime = false; // Set isPrime to false
+                break; // Exit loop
+            }
+        }
+        String result12 = isPrime ? "Prime" : "Not Prime"; // Check if number6 is prime
+        System.out.println("Number6 is " + result12); // Print the result
+
+
+
+
+
+
+
     }
 }
