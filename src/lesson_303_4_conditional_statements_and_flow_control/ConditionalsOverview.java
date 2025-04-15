@@ -262,7 +262,24 @@ public class ConditionalsOverview {
             System.out.println("invalid age");
         }
 
+        String username = "admin";
+        String password = "1234";
 
+// Simulated user input (you can replace these with Scanner input later)
+        String inputUsername = "admin";
+        String inputPassword = "wrongpass";
+
+// Check each input separately
+        if (inputUsername.equals(username) && inputPassword.equals(password)) {
+            System.out.println("✅ Login successful!");
+        } else {
+            if (!inputUsername.equals(username) && !inputPassword.equals(password)) {
+                System.out.println("❌ Both username and password are incorrect.");
+            } else if (!inputUsername.equals(username)) {
+                System.out.println("❌ The username is incorrect.");
+            } else if (!inputPassword.equals(password)) {
+                System.out.println("❌ The password is incorrect.");
+            }
 
 
 
