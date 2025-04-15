@@ -235,5 +235,38 @@ public class ConditionalsOverview {
          * Logical operators (&&, ||, !) allow you to combine multiple conditions in a single if statement.
          * This helps in making decisions based on multiple criteria.
          */
+
+
+        int score1= 45;
+        if (score1 >= 95) {
+
+            System.out.println("Gold Medal");
+        }else if(score1 >=85){
+            System.out.println("silver medal");
+        }else if(score1>=75){
+            System.out.println("bronze Medal");
+        }else{
+            System.out.println("you ait got ain't got no medal ");
+        }
+
+        int age1 =43;
+        if(age1 >=0  && age1 <=12){
+            System.out.println("You are a child");
+        }else if(age1 >=13 && age1<=17){
+            System.out.println("you are a teengaer");
+        }else if(age1 >=18 && age1<=64){
+            System.out.println("you are an adult");
+        } else if(age1 >=65){
+            System.out.println("you are a senior");
+        }else {
+            System.out.println("invalid age");
+        }
+
+
+
+
+
+
+
     }
 }
