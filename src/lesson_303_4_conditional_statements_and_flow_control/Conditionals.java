@@ -146,7 +146,18 @@ public class Conditionals {
             System.out.println(" Good Night");
         }*/
 
-        /* */
+
+        /*  double bodyTemp = 104.3;
+
+        if(bodyTemp >=103){
+            System.out.println("High Fever");
+        }else if(bodyTemp >= 10.4){
+            System.out.println("Mild fever");
+        }else if(bodyTemp >=97){
+            System.out.println("Normal");
+        }else{
+            System.out.println("Below norma;");
+        } */
         /* */
         /* */
         /* */
