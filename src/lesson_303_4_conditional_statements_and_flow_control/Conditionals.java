@@ -171,7 +171,21 @@ public class Conditionals {
         }else{
             System.out.println("Symbol");
         } */
-        /* */
+
+
+        /*double magnitude = 6.5;
+
+        if (magnitude >= 8.0) {
+            System.out.println("Great earthquake");
+        } else if (magnitude >= 7.0) {
+            System.out.println("Major earthquake");
+        } else if (magnitude >= 6.0) {
+            System.out.println("Strong earthquake");
+        } else if (magnitude >= 4.0) {
+            System.out.println("Light earthquake");
+        } else {
+            System.out.println("Minor or micro earthquake");
+        } */
         /* */
         /* */
         /* */
