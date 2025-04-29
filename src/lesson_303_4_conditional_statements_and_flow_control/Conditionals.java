@@ -132,7 +132,20 @@ public class Conditionals {
         } else {
             System.out.println("Unknown temperature scale");
         } */
-        /* */
+
+        /*
+        int hour = 11;
+
+        if(hour <12){
+            System.out.println("Good Morning ");
+        }else if(hour<=17){
+            System.out.println("Good Afternoor");
+        }else if(hour<= 21){
+            System.out.println("Good Eveing");
+        }else{
+            System.out.println(" Good Night");
+        }*/
+
         /* */
         /* */
         /* */
