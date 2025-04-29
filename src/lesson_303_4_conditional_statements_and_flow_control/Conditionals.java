@@ -158,7 +158,19 @@ public class Conditionals {
         }else{
             System.out.println("Below norma;");
         } */
-        /* */
+
+
+
+        /*  char ch = 7;
+        if(Character.isDigit(ch)){
+            System.out.println("Digit");
+        }else if(Character.isUpperCase(ch)){
+            System.out.println("UpperCAse Letter");
+        }else if(Character.isLowerCase(ch)){
+            System.out.println("LowerCase Letter");
+        }else{
+            System.out.println("Symbol");
+        } */
         /* */
         /* */
         /* */
