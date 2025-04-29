@@ -121,7 +121,17 @@ public class Conditionals {
             System.out.println("Shipping: $5");
         }
          */
-        /* */
+
+        /*   String type = String.valueOf('f');
+        String upperType = type.toUpperCase();
+
+        if (upperType.equals("F")) {
+            System.out.println("You entered Fahrenheit");
+        } else if (upperType.equals("C")) {
+            System.out.println("You entered Celsius");
+        } else {
+            System.out.println("Unknown temperature scale");
+        } */
         /* */
         /* */
         /* */
