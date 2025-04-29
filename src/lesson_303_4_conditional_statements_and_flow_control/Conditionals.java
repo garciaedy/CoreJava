@@ -104,8 +104,23 @@ public class Conditionals {
         }else{
             System.out.println("Batter Will ran out soon");
         }
-        *  */
-        /* */
+        */
+
+        /*
+// Shipping Cost by Weight
+        double weight = 1;
+
+        if(weight >= 10){
+            System.out.println("Shipping: $25");
+        }else if(weight >=5){
+            System.out.println("Shipping: $15");
+        }else if(weight >=2 ){
+            System.out.println("shipping: $10");
+
+        }else{
+            System.out.println("Shipping: $5");
+        }
+         */
         /* */
         /* */
         /* */
