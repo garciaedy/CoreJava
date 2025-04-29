@@ -69,13 +69,42 @@ public class Conditionals {
        */
 
 
-
         /*
         //BMICheck
+  double weighKg =  180;
+        double heightMeters =1.75;
+        double bmi = weighKg/(heightMeters * heightMeters);
 
+                if(bmi < 18.5){
+                    System.out.println("You are underweight");
+                }else if(bmi < 25){
+                    System.out.println("normal weight");
+                }else if(bmi < 30){
+                    System.out.println("Overweight");
+                }else{
+                    System.out.println("Obese");
+                }
         * */
 
-        /* */
+
+
+        /*
+        //Battery Level Alert
+     int battery =75;
+
+        if(battery >= 80){
+            System.out.println("Battery full");
+        }else if(battery >= 75){
+            System.out.println("Battery: " + battery +"%" + " Power save On");
+        }else if(battery >=50){
+            System.out.println("battery half full");
+
+        }else if(battery >= 20){
+            System.out.println("Battery LOW: " + battery + " Power save On");
+        }else{
+            System.out.println("Batter Will ran out soon");
+        }
+        *  */
         /* */
         /* */
         /* */
